@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-
 }
+ 
 header {
     color: white;
     background: linear-gradient(0deg,
@@ -42,4 +42,67 @@ marquee {
     padding: 10px;
     border: 5px white solid;
     margin-top: 50px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+ }
+.block1{
+    height: 388px;
+    border-radius: 9%;
+    background:linear-gradient(50deg,rgba(191, 129, 148, 1)0%,rgba(86, 166, 241, 1)100% );
+    display: flex;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.block2{
+    height: 388px;
+    border-radius: 9%;
+    background:linear-gradient(50deg,rgba(97, 227, 194, 1) 0%,rgba(70, 134, 195, 1)100% );
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.block3{
+    height: 388px;
+    border-radius: 9%;
+    background:linear-gradient(50deg,rgba(226, 132, 23, 1) 0%,rgba(92, 144, 181, 1)75% );
+    display: flex;
+    text-align: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+h2{
+    display: flex;
+    
+}
+p{
+    display: flex;
+    flex-wrap: wrap;
 }
