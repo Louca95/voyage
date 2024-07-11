@@ -108,8 +108,12 @@ section img{
     margin-left: 10%;
     margin-right: 10%;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-   
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
 }
+
+
 .block3{
     height: 388px;
     border-radius: 9%;
@@ -146,4 +150,26 @@ p{
    margin-right: 26px;
 }
 
-
+@media screen and (max-width: 680px){
+    section img{
+        display: block;
+        width: 40%;
+        height: 35%;
+        margin-bottom: 10%;
+    }
+    .block1{
+        display: block;
+        width: 50%;
+        font-size: 11px;
+    }
+    .block2{
+        display: block;
+        width: 50%;
+        font-size: 11px;
+    }
+    .block3{
+        display: block;
+        width: 50%;
+        font-size: 11px;
+    }
+}
