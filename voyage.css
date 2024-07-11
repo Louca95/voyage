@@ -55,6 +55,7 @@ main{
     height: 200px;
     border-radius: 50%;
     float: left;
+    
  }
 .block1{
     height: 388px;
@@ -106,3 +107,25 @@ p{
     display: flex;
     flex-wrap: wrap;
 }
+
+footer{
+    padding: 40px;
+    background: linear-gradient(0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 253, 149, 0.681) 100%
+    );
+}
+
+footer p {
+    color: white;
+    float: inline-start;
+}
+i{
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    float: inline-end;
+    margin-top: -25px;
+
+}
+
